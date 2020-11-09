@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="0D9BFE84-BE85-2C4D-D383-F328B0529550">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:18:02 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

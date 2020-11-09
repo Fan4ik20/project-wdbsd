@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A30C0302-F8B2-226E-2CF0-13F1DE3DCB19" containerWithKeyObject="3701FC20-7A41-0B7D-9C27-7ADAB7CB1F82" localFKIndex="76F553AA-27EC-AB03-0B36-E52C106FAF01" name="Cart_Payment_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:49:25 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<referredTableLongName>PaymentMethod</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>56BAD8B2-D53D-25A3-51F1-0E2B2C873CA9</referredTableID>
+<keyObject>74500381-F535-C5B3-3AB7-87E1A30C77C7</keyObject>
+<referredKeyID>74500381-F535-C5B3-3AB7-87E1A30C77C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PaymentMethod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

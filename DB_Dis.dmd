@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DB_Dis" id="1456FF38-ED0F-1C72-E632-65DD93DB0873" version="3.5">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:18:01 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1456FF38-ED0F-1C72-E632-65DD93DB0873</designId>
+</OSDM_Design>

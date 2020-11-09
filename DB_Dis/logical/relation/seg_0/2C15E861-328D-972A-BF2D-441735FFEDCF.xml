@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_User_Ticket" directorySegmentName="seg_0" id="2C15E861-328D-972A-BF2D-441735FFEDCF">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:59:45 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<sourcePk>73E3AF24-98C1-03C8-B18D-456C4A2ECD97</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48641355-7419-44DF-84AD-E04E04B6ECA7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94F2A0EE-2959-87BB-6C4D-E7EB1D7E03EA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

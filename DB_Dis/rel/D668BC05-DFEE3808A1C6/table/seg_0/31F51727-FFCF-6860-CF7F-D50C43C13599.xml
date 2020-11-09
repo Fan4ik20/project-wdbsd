@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31F51727-FFCF-6860-CF7F-D50C43C13599" name="Ticket">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>94F2A0EE-2959-87BB-6C4D-E7EB1D7E03EA</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Ticket" id="F0423295-9A70-2D3A-EB22-EE83379D6E53">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>84434C37-391F-63C6-5301-F69717B6D326</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Event" id="6907DB49-ACFE-649E-EFA8-8683AF589FF7">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>B5C7FEC6-CE01-F453-F1E7-E96AF8B1C9C1</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="504186FF-0862-B639-42E9-D289A69B0A0B" referredColumn="F934C9B5-A1A5-FC2A-2AB3-CC38608ADCE4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B3FBC9E-52AF-FC21-2415-9CEC053AD09C" name="Ticket_PK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>988F7A33-B124-712B-D618-96C75B51F6E2</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0423295-9A70-2D3A-EB22-EE83379D6E53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="576B135E-60AD-38F1-5207-4F886C444BF0" name="Ticket_Event_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>16874462-10DF-87CB-D309-669B515D8AF7</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6907DB49-ACFE-649E-EFA8-8683AF589FF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

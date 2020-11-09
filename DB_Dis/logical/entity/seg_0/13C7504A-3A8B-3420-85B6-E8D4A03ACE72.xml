@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13C7504A-3A8B-3420-85B6-E8D4A03ACE72" name="Subcategory">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:37:13 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Subcategory" id="37AEB15A-D52F-D4FF-AE58-4B36D427ECD1">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:37:22 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subcategory_Name" id="FE07F46B-4FD8-4D03-3A83-090105ABB9CD">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:37:35 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Category" id="4ADFEC0A-BD80-5516-45A4-5C7F9B59EB27">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:57:37 UTC</createdTime>
+<generatorID>F70C7167-8E92-839B-0AA6-EA7F00DBCD38</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<referedAttribute>9EC01172-8D94-8E2F-ACEF-73C6CA308DC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="691CEF6E-9B6D-86B7-90DB-29EE709690B6" name="SubcatName_UQ">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:40:17 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<newElementsIDs>FE07F46B-4FD8-4D03-3A83-090105ABB9CD</newElementsIDs>
+<usedAttributes>
+<attributeRef>FE07F46B-4FD8-4D03-3A83-090105ABB9CD</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A1CAE478-3F2D-1621-DEAE-BD77CCCA457E" name="Subcategory PK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:40:34 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37AEB15A-D52F-D4FF-AE58-4B36D427ECD1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

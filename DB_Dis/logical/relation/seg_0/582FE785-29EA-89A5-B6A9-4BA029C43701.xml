@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_City_Event" directorySegmentName="seg_0" id="582FE785-29EA-89A5-B6A9-4BA029C43701">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:00:48 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<sourcePk>913D6C2A-3000-7506-93FA-D566B1A408EE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C566197-04A4-ACF3-9223-A186F34FAF7A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E9BE4B32-C820-5F6C-CCFC-C8A20AFEFE22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

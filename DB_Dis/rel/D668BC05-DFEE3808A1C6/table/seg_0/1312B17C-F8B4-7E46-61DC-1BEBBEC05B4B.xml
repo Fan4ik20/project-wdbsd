@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1312B17C-F8B4-7E46-61DC-1BEBBEC05B4B" name="Event">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>E9BE4B32-C820-5F6C-CCFC-C8A20AFEFE22</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Event" id="F934C9B5-A1A5-FC2A-2AB3-CC38608ADCE4">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>5AB1577F-69AB-4D9D-08AE-E8DCB3CDCCCD</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_Name" id="C183E01B-06EB-ECEA-6F60-F7B09E5D5E67">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>7CD2A44D-7196-2CBB-870A-B3E241B9DDD3</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="5182BC32-2B1C-647A-0616-61EB57D90608">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>B787B315-877C-F662-A412-970C1514FC25</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>600 CHAR</dataTypeSize>
+<ownDataTypeParameters>600 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_Date" id="3C62847B-AD0D-C80B-7809-3F646381DCD5">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>E5674CD4-E64D-A904-91BA-06F1E7EBEBEB</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_Cost" id="EE1C203A-CDA5-26C0-625D-61F78C4419FC">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>CA66B408-C464-194A-DD90-8AAACDFCFD4D</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_Address" id="85F939EC-5F6B-C39F-0415-AB098897D8D8">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>DFFCC74D-4CF8-C65E-F272-49016FB425D0</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_City" id="2C3B160D-2B8D-7988-913B-BDFE6E63B3B5">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>BA65B870-FB40-4906-202D-F87CFA0BC6A5</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44370ED2-FC46-B574-7215-0502FADF564C" referredColumn="73374408-9D07-4393-980B-5A64F925623A"/>
+</associations>
+</Column>
+<Column name="ID_Subcategory" id="978E7341-45E5-0768-23C5-2E82FCAB0CEF">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>5BC17F35-9D52-E2DF-83D9-2AD2E9743D07</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="373EE515-B77A-7421-B4D0-859DE342DD31" referredColumn="44BA0EB6-3442-E2E4-46F0-4625D327F083"/>
+</associations>
+</Column>
+<Column name="Event_Image" id="43886197-0782-E30E-1568-9498B1D17EAC">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>23CF0C82-63F0-9820-6A84-37818C203DDB</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05FCA095-F1AF-A656-9903-2564335C06E9" name="Event_PK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>AF34B6B5-288B-F6EC-0364-8A0AEE1BFA20</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F934C9B5-A1A5-FC2A-2AB3-CC38608ADCE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="595A47AA-F421-8905-25E8-3B8F04CCBE7C" name="Event_City_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>582FE785-29EA-89A5-B6A9-4BA029C43701</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C3B160D-2B8D-7988-913B-BDFE6E63B3B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3B7F935-5D5E-7627-86ED-7BF1512CAD1C" name="Event_Subcategory_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>677D6044-18FA-E36B-23E4-54402D270067</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="978E7341-45E5-0768-23C5-2E82FCAB0CEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Subcat_Event" directorySegmentName="seg_0" id="677D6044-18FA-E36B-23E4-54402D270067">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:01:49 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<sourcePk>A1CAE478-3F2D-1621-DEAE-BD77CCCA457E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13C7504A-3A8B-3420-85B6-E8D4A03ACE72</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E9BE4B32-C820-5F6C-CCFC-C8A20AFEFE22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

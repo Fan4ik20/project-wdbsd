@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="DB8075FF-872E-023A-E817-BE35A226D88D">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:18:02 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

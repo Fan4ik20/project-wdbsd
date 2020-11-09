@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="ED910F3E-727B-335F-310D-8C4C051023A7" mainViewID="65F1C9C5-C816-B0BF-3413-01AC564E5AF2">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:18:01 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

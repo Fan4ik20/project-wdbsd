@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Reg_City" directorySegmentName="seg_0" id="75D9633E-4520-98D3-1F93-E297F8EA1A10">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:55:47 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<sourcePk>15247ECA-9EA6-2824-58E9-5B7D36751AAF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D3CB0161-9B51-991A-EBA3-34BBE4AD57D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7C566197-04A4-ACF3-9223-A186F34FAF7A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

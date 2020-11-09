@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D161559-15DB-499F-1434-535BDCA4D4DE" name="Subcategory">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>13C7504A-3A8B-3420-85B6-E8D4A03ACE72</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Subcategory" id="44BA0EB6-3442-E2E4-46F0-4625D327F083">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>37AEB15A-D52F-D4FF-AE58-4B36D427ECD1</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subcategory_Name" id="54FB387E-1007-9489-E53F-0CBB371ACBB1">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>FE07F46B-4FD8-4D03-3A83-090105ABB9CD</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Category" id="157B08AB-512A-64EB-7BED-77165CBC06E5">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>4ADFEC0A-BD80-5516-45A4-5C7F9B59EB27</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E260627-441B-5FDC-D4D6-F778992F6B0E" referredColumn="35D58D11-80D2-6545-C1EB-575551234CC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B0273E8-7D54-6D3B-EC8C-B1E6D7C22B57" name="Subcategory_PK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>A1CAE478-3F2D-1621-DEAE-BD77CCCA457E</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44BA0EB6-3442-E2E4-46F0-4625D327F083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C19865A8-C604-B324-4AF8-4516CB4DC6F3" name="Subcat_Name_UN">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>691CEF6E-9B6D-86B7-90DB-29EE709690B6</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54FB387E-1007-9489-E53F-0CBB371ACBB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D248D38-627B-FA2B-200E-CD6A4C65FC88" name="Subcat_Cat_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>F70C7167-8E92-839B-0AA6-EA7F00DBCD38</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="157B08AB-512A-64EB-7BED-77165CBC06E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

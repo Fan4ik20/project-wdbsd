@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="373EE515-B77A-7421-B4D0-859DE342DD31" containerWithKeyObject="1312B17C-F8B4-7E46-61DC-1BEBBEC05B4B" localFKIndex="F3B7F935-5D5E-7627-86ED-7BF1512CAD1C" name="Event_Subcategory_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>677D6044-18FA-E36B-23E4-54402D270067</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<referredTableLongName>Subcategory</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8D161559-15DB-499F-1434-535BDCA4D4DE</referredTableID>
+<keyObject>7B0273E8-7D54-6D3B-EC8C-B1E6D7C22B57</keyObject>
+<referredKeyID>7B0273E8-7D54-6D3B-EC8C-B1E6D7C22B57</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Subcategory</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9D4689D-61B3-7190-6760-D9D89EB999BA" name="User">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>48641355-7419-44DF-84AD-E04E04B6ECA7</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_User" id="17BB6E0F-2D14-374B-611D-D7A9ACDE7E4A">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>71174BC9-40EB-9234-E22D-2BCD56517DD6</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_Address" id="115CAAB9-26EA-2CD5-B66E-B760B26FD762">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>02AA5F5B-E55D-C478-63A2-1B80B9C74748</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nick_Name" id="89A90898-ECEA-4E92-F166-BC4B0CA37A7C">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>A62089DD-1A1C-0AE9-4DD9-2FDCD61DA69A</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="08820862-9A9F-976E-43CB-B2DA503EFF1E">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>F6F4DBC7-6B02-B596-91AC-F599043B52DC</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fierst_Name" id="0BC85816-7CBB-12E7-B4AA-FA3C0C838F4E">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>3178A457-F89D-C57A-3904-CB5C28B514F9</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="ABD27498-7718-9D2B-2750-BAB315E98555">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>E897CC42-1462-D1CC-60E0-14F63B84F2A1</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Birth_Date" id="C88876A7-7001-00E0-F4AF-58AAD4400A07">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>B8E35827-3844-3719-E0DD-06311C776A38</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Shop_Cart" id="AD6D9F0F-F885-AA48-7D72-1FEBA2E3618A">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:36:14 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81F6A5C8-A15E-3F40-07BC-D99B3B9EB7D4" referredColumn="E5B26940-41F0-0C59-9CBC-164EDD9A1515"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BF51D4D-D44A-C1AC-352C-5311E6FD714C" name="User_PK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>73E3AF24-98C1-03C8-B18D-456C4A2ECD97</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17BB6E0F-2D14-374B-611D-D7A9ACDE7E4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F03D5997-CC61-EC98-5EA6-AE2D6666ABEF" name="Nick_Emai_UN">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>C1B7D7E6-134A-56BD-8161-E94AACF4AD97</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89A90898-ECEA-4E92-F166-BC4B0CA37A7C"/>
+<colUsage columnID="115CAAB9-26EA-2CD5-B66E-B760B26FD762"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEEBFEFE-495D-EE36-8786-710F82BD3B16" name="Id_Shopc">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:37:53 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD6D9F0F-F885-AA48-7D72-1FEBA2E3618A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="886CC5C2-82DF-D82E-382B-AA2C2B249C53" name="User_Shop_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:36:14 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD6D9F0F-F885-AA48-7D72-1FEBA2E3618A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

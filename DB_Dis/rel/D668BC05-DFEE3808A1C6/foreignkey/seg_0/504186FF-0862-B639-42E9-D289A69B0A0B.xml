@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="504186FF-0862-B639-42E9-D289A69B0A0B" containerWithKeyObject="31F51727-FFCF-6860-CF7F-D50C43C13599" localFKIndex="576B135E-60AD-38F1-5207-4F886C444BF0" name="Ticket_Event_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>16874462-10DF-87CB-D309-669B515D8AF7</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<referredTableLongName>Event</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1312B17C-F8B4-7E46-61DC-1BEBBEC05B4B</referredTableID>
+<keyObject>05FCA095-F1AF-A656-9903-2564335C06E9</keyObject>
+<referredKeyID>05FCA095-F1AF-A656-9903-2564335C06E9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Event</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3701FC20-7A41-0B7D-9C27-7ADAB7CB1F82" name="Shop_Cart">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:23:01 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Shop_Cart" id="E5B26940-41F0-0C59-9CBC-164EDD9A1515">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:23:35 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentMethod_ID_PaymentMethod" id="7901A6AE-43CD-B8BB-CDEC-05B308C88503">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:49:25 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A30C0302-F8B2-226E-2CF0-13F1DE3DCB19" referredColumn="A4A7CC89-85AF-F561-B02F-38D0E235B08F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C24D6B05-2518-85DA-77A5-1CBCDC1B7C46" name="Shop_Cart_PK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:23:35 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5B26940-41F0-0C59-9CBC-164EDD9A1515"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76F553AA-27EC-AB03-0B36-E52C106FAF01" name="Cart_Payment_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:49:25 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7901A6AE-43CD-B8BB-CDEC-05B308C88503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

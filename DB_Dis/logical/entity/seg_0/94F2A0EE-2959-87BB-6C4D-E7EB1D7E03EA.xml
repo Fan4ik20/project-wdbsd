@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94F2A0EE-2959-87BB-6C4D-E7EB1D7E03EA" name="Ticket">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:53:18 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Ticket" id="84434C37-391F-63C6-5301-F69717B6D326">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:53:36 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Event" id="B5C7FEC6-CE01-F453-F1E7-E96AF8B1C9C1">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:56:48 UTC</createdTime>
+<generatorID>16874462-10DF-87CB-D309-669B515D8AF7</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<referedAttribute>5AB1577F-69AB-4D9D-08AE-E8DCB3CDCCCD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_User" id="B5FDA17D-B366-754F-53B1-5E570D1C82BF">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:59:45 UTC</createdTime>
+<generatorID>2C15E861-328D-972A-BF2D-441735FFEDCF</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<referedAttribute>71174BC9-40EB-9234-E22D-2BCD56517DD6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="988F7A33-B124-712B-D618-96C75B51F6E2" name="Ticket PK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 10:53:51 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<engineerTo>
+<item key="D668BC05-0511-8C35-2050-DFEE3808A1C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84434C37-391F-63C6-5301-F69717B6D326</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

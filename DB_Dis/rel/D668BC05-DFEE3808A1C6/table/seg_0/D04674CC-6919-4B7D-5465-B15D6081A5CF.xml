@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D04674CC-6919-4B7D-5465-B15D6081A5CF" name="Order_Detail">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:24:21 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Order_Detail" id="60B334B7-2985-C415-D44C-7E5F6F8576F9">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:25:06 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="79943D49-242C-9273-4E68-B89980D6F84F">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:26:05 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CatalogPrice" id="B0BF29C2-0FF7-DA01-63C8-DC99C60B4465">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:26:49 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Shop_Cart" id="F8563595-F80C-A1D6-3059-83C23DE15171">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:40:32 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6C9A540-BDC8-2CAA-F852-9DDDC42F7821" referredColumn="E5B26940-41F0-0C59-9CBC-164EDD9A1515"/>
+</associations>
+</Column>
+<Column name="ID_Ticket" id="068E10EC-803A-769D-D526-A02F9994A18E">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:42:49 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF72C2AE-1E2C-680C-ECAB-F1795F09D82C" referredColumn="F0423295-9A70-2D3A-EB22-EE83379D6E53"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E6854D7-9611-7056-D923-35F70204F6DF" name="Order_Detail_PK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:25:06 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60B334B7-2985-C415-D44C-7E5F6F8576F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2BABF1E-AAE0-1A5D-43CA-A9F68A786AB1" name="Order_Shop_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:40:32 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8563595-F80C-A1D6-3059-83C23DE15171"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7664E78-7F8E-E558-9928-B0CF07E34292" name="Orderl_Ticket_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:42:49 UTC</createdTime>
+<generatorID>988F7A33-B124-712B-D618-96C75B51F6E2</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="068E10EC-803A-769D-D526-A02F9994A18E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

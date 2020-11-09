@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="44370ED2-FC46-B574-7215-0502FADF564C" containerWithKeyObject="1312B17C-F8B4-7E46-61DC-1BEBBEC05B4B" localFKIndex="595A47AA-F421-8905-25E8-3B8F04CCBE7C" name="Event_City_FK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:08:31 UTC</createdTime>
+<generatorID>582FE785-29EA-89A5-B6A9-4BA029C43701</generatorID>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<referredTableLongName>City</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5B9C47C0-F822-2057-E124-43BF2D9BC696</referredTableID>
+<keyObject>CD2E08A0-33CB-9B12-0B37-B14BFDB5417E</keyObject>
+<referredKeyID>CD2E08A0-33CB-9B12-0B37-B14BFDB5417E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_City</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

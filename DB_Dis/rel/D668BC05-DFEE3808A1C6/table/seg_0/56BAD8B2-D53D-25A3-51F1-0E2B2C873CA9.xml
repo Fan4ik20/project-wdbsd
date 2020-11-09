@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56BAD8B2-D53D-25A3-51F1-0E2B2C873CA9" name="PaymentMethod">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:45:09 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PaymentMethod" id="A4A7CC89-85AF-F561-B02F-38D0E235B08F">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:45:24 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentMethod_Name" id="BECF2C9D-0039-4ED8-743C-EDE1A67B1769">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:45:38 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74500381-F535-C5B3-3AB7-87E1A30C77C7" name="PaymentMethod_PK">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:45:24 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4A7CC89-85AF-F561-B02F-38D0E235B08F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADA55EB3-EE79-59DC-64E4-FC744665EC86" name="PaymentMethod_name_UN">
+<createdBy>Vova</createdBy>
+<createdTime>2020-10-22 11:45:56 UTC</createdTime>
+<ownerDesignName>DB_Dis</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BECF2C9D-0039-4ED8-743C-EDE1A67B1769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
